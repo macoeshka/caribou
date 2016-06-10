@@ -207,6 +207,7 @@ class AntlerWindow(ProximityWindowBase):
         ProximityWindowBase.__init__(self)
 
         self.set_name("AntlerWindow")
+        self.set_title("AntlerWindow")
 
         ctx = self.get_style_context()
         ctx.add_class("antler-keyboard-window")
